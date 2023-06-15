@@ -1,0 +1,80 @@
+body{
+    background-image: url("../IMG/cafe_21.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: moccasin;
+}
+
+table{
+    background-color: moccasin;
+    margin: auto;
+    width: 600px;
+}
+
+table tr td{
+    padding: 10px;
+}
+/*
+#header_box{
+    border-bottom: 10px solid #964b00;
+}
+*/
+#nav_box{
+    border-top: 8px solid  #964b00;
+    background-color: rgb(207, 137, 86);
+    padding: 0%;
+    margin: 0%;
+    height: 45px;
+}
+
+#nav_box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#nav_box li{
+    float: left;
+}
+
+#nav_box a{
+    padding: 10px;
+    text-decoration: none;
+}
+.active{
+    background-color: #964b00;
+    color: white;
+}
+
+#nav_box a:hover:not(.active){
+    background-color: burlywood;
+    color: white;
+    transition: 0.4s;
+}
+.article_box{
+    padding: 10px;
+}
+.article_box p{
+    font-size: 18px;
+    text-align: justify;
+}
+.article_box h2{
+    border-top: 8px solid #964b00 ;
+    background-color: rgb(209, 143, 96);
+    padding: 10px;
+
+}
+#image_box img{
+width: 100%;
+background-color: moccasin;
+}
+#image_box{
+    width: 500px;
+}
+
+#footer_box{
+    text-align: center;
+    height: 50px;
+    background-color: rgb(209, 143, 96);
+    border-top: 8px solid #964b00;
+}
